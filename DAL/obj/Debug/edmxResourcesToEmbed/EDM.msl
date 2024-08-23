@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AdministradorReportesIModelStoreContainer" CdmEntityContainer="DBEntities">
+    <EntitySetMapping Name="Description">
+      <EntityTypeMapping TypeName="AdministradorReportesIModel.Description">
+        <MappingFragment StoreEntitySet="Description">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Report" ColumnName="Report" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Location">
+      <EntityTypeMapping TypeName="AdministradorReportesIModel.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Member">
+      <EntityTypeMapping TypeName="AdministradorReportesIModel.Member">
+        <MappingFragment StoreEntitySet="Member">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="AccessLevel" ColumnName="AccessLevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Report">
+      <EntityTypeMapping TypeName="AdministradorReportesIModel.Report">
+        <MappingFragment StoreEntitySet="Report">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Spreadsheet">
+      <EntityTypeMapping TypeName="AdministradorReportesIModel.Spreadsheet">
+        <MappingFragment StoreEntitySet="Spreadsheet">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Archive" ColumnName="Archive" />
+          <ScalarProperty Name="Generated" ColumnName="Generated" />
+          <ScalarProperty Name="Hour" ColumnName="Hour" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

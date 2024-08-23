@@ -1,0 +1,30 @@
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\DAL.dll
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\DAL.pdb
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\DAL\obj\Debug\DAL.dll
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\DAL\obj\Debug\DAL.pdb
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\DAL.dll.config
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\EntityFramework.dll
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\EntityFramework.xml
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\AdministradorReportesI.mdf
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\AdministradorReportesI_log.ldf
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\AdministradorReportesI.mdf
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\AdministradorReportesI_log.ldf
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\DAL.dll.config
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\DAL.dll
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\DAL.pdb
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\EntityFramework.dll
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\EntityFramework.xml
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\obj\Debug\DAL.dll
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\obj\Debug\DAL.pdb
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\AdministradorReportesI.mdf
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\AdministradorReportesI_log.ldf
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\DAL.dll.config
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\DAL.dll
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\DAL.pdb
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\EntityFramework.dll
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\bin\Debug\EntityFramework.xml
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\obj\Debug\DAL.dll
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\obj\Debug\DAL.pdb
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache

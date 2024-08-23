@@ -1,0 +1,65 @@
+G:\Arkavia Networks\AdministradorDeReportes\BLL\bin\Debug\BLL.dll
+G:\Arkavia Networks\AdministradorDeReportes\BLL\bin\Debug\BLL.pdb
+G:\Arkavia Networks\AdministradorDeReportes\BLL\bin\Debug\DAL.dll
+G:\Arkavia Networks\AdministradorDeReportes\BLL\bin\Debug\DAL.pdb
+G:\Arkavia Networks\AdministradorDeReportes\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+G:\Arkavia Networks\AdministradorDeReportes\BLL\obj\Debug\BLL.dll
+G:\Arkavia Networks\AdministradorDeReportes\BLL\obj\Debug\BLL.pdb
+G:\Arkavia Networks\Application\Version II\AdministradorDeReportes\BLL\bin\Debug\BLL.dll
+G:\Arkavia Networks\Application\Version II\AdministradorDeReportes\BLL\bin\Debug\BLL.pdb
+G:\Arkavia Networks\Application\Version II\AdministradorDeReportes\BLL\bin\Debug\DAL.dll
+G:\Arkavia Networks\Application\Version II\AdministradorDeReportes\BLL\bin\Debug\DAL.pdb
+G:\Arkavia Networks\Application\Version II\AdministradorDeReportes\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+G:\Arkavia Networks\Application\Version II\AdministradorDeReportes\BLL\obj\Debug\BLL.dll
+G:\Arkavia Networks\Application\Version II\AdministradorDeReportes\BLL\obj\Debug\BLL.pdb
+C:\Users\Makku293\Desktop\AdministradorDeReportes\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Makku293\Desktop\AdministradorDeReportes\BLL\obj\Debug\BLL.dll
+C:\Users\Makku293\Desktop\AdministradorDeReportes\BLL\obj\Debug\BLL.pdb
+C:\Users\Makku293\Desktop\AdministradorDeReportes\BLL\bin\Debug\BLL.dll
+C:\Users\Makku293\Desktop\AdministradorDeReportes\BLL\bin\Debug\BLL.pdb
+C:\Users\Makku293\Desktop\AdministradorDeReportes\BLL\bin\Debug\DAL.dll
+C:\Users\Makku293\Desktop\AdministradorDeReportes\BLL\bin\Debug\DAL.pdb
+G:\Arkavia Networks\Application on Testing\AdministradorDeReportes\BLL\bin\Debug\BLL.dll
+G:\Arkavia Networks\Application on Testing\AdministradorDeReportes\BLL\bin\Debug\BLL.pdb
+G:\Arkavia Networks\Application on Testing\AdministradorDeReportes\BLL\bin\Debug\DAL.dll
+G:\Arkavia Networks\Application on Testing\AdministradorDeReportes\BLL\bin\Debug\DAL.pdb
+G:\Arkavia Networks\Application on Testing\AdministradorDeReportes\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+G:\Arkavia Networks\Application on Testing\AdministradorDeReportes\BLL\obj\Debug\BLL.dll
+G:\Arkavia Networks\Application on Testing\AdministradorDeReportes\BLL\obj\Debug\BLL.pdb
+G:\Arkavia Networks\Application\Version III\AdministradorDeReportes\BLL\bin\Debug\BLL.dll
+G:\Arkavia Networks\Application\Version III\AdministradorDeReportes\BLL\bin\Debug\BLL.pdb
+G:\Arkavia Networks\Application\Version III\AdministradorDeReportes\BLL\bin\Debug\DAL.dll
+G:\Arkavia Networks\Application\Version III\AdministradorDeReportes\BLL\bin\Debug\DAL.pdb
+G:\Arkavia Networks\Application\Version III\AdministradorDeReportes\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+G:\Arkavia Networks\Application\Version III\AdministradorDeReportes\BLL\obj\Debug\BLL.dll
+G:\Arkavia Networks\Application\Version III\AdministradorDeReportes\BLL\obj\Debug\BLL.pdb
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\BLL.dll
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\BLL.pdb
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\DAL.dll
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\DAL.pdb
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.dll
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.pdb
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\AdministradorReportesI.mdf
+G:\Arkavia Networks\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\AdministradorReportesI_log.ldf
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\AdministradorReportesI.mdf
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\AdministradorReportesI_log.ldf
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\BLL.dll
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\BLL.pdb
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\DAL.dll
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\DAL.pdb
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.dll
+D:\Programming\C#\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.pdb
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\AdministradorReportesI.mdf
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\AdministradorReportesI_log.ldf
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\BLL.dll
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\BLL.pdb
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\DAL.dll
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\DAL.pdb
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.dll
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.pdb
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\bin\Debug\DAL.dll.config
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Projects\IT\Arkavia Networks\Application\Version IV\Administrador de Reportes\AdministradorDeReportes\BLL\obj\Debug\BLL.csproj.CopyComplete

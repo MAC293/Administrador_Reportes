@@ -1,0 +1,63 @@
+﻿<Window x:Class="UI.MainWindow" WindowState="Maximized"  
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="Administrador de Reportes" Height="768px" Width="1366px">
+    <Grid Margin="0,0,2,0">
+        
+        <Image Margin="520,0,581,620" RenderOptions.BitmapScalingMode="HighQuality">
+            <Image.Source>
+                <BitmapImage UriSource="Images\Logo.jpg" />
+            </Image.Source>
+        </Image>
+
+        <ComboBox x:Name="cmbGroup" HorizontalAlignment="Left" Height="Auto" FontSize="16" Margin="60,160,0,0" VerticalAlignment="Top" Width="193" SelectedIndex="0" SelectionChanged="cmbGroup_SelectionChanged">
+            <ComboBoxItem Content="Seleccione Grupo"/>
+            <ComboBoxItem Name="cmbiCDLV" Content="Ciudad de los Valles"/>
+            <ComboBoxItem Name="cmbiLGVL" Content="Longovilo"/>
+        </ComboBox>
+
+        <ComboBox x:Name="cmbReport" MaxDropDownHeight ="440px" HorizontalAlignment="Left" Height="Auto"  Margin="520,160,0,0" VerticalAlignment="Top" Width="255" SelectedIndex="0" FontSize="16" SelectionChanged="cmbReport_SelectionChanged">
+            <ComboBoxItem Content="Seleccione Reporte"/>
+            <ComboBoxItem Content="AMP File Analysis"/>
+            <ComboBoxItem Content="AMP Verdict Updates"/>
+            <ComboBoxItem Content="Archived Reports"/>
+            <ComboBoxItem Content="Advanced Malware Protection"/>
+            <ComboBoxItem Content="Content Filters"/>
+            <ComboBoxItem Content="DMARC Verification"/>
+            <ComboBoxItem Content="Forged Email Detection"/>
+            <ComboBoxItem Content="Geo Distributions"/>
+            <ComboBoxItem Content="High Volume Mail"/>
+            <ComboBoxItem Content="Inbound SMTP Authentication"/>
+            <ComboBoxItem Content="Internal Users"/>
+            <ComboBoxItem Content="Incoming Mails"/>
+            <ComboBoxItem Content="Mailbox Auto Remedation"/>
+            <ComboBoxItem Content="Message Filters"/>
+            <ComboBoxItem Content="Macro Detection"/>
+            <ComboBoxItem Content="My Email Reports"/>
+            <ComboBoxItem Content="Overview"/>
+            <ComboBoxItem Content="Outgoing Destinations"/>
+            <ComboBoxItem Content="Outgoing Senders"/>
+            <ComboBoxItem Content="Outbreak Filters"/>
+            <ComboBoxItem Content="Rate Limits"/>
+            <ComboBoxItem Content="Reporting Data Availability"/>
+            <ComboBoxItem Content="System Capacity"/>
+            <ComboBoxItem Content="Scheduled Reports"/>
+            <ComboBoxItem Content="Sender Groups"/>
+            <ComboBoxItem Content="TLS Connections"/>
+            <ComboBoxItem Content="URL Filtering"/>
+            <ComboBoxItem Content="Virus Types"/>
+            <ComboBoxItem Content="Web Interaction Tracking"/>
+        </ComboBox>
+
+        <ComboBox x:Name="cmbDetail" Height="Auto" FontSize="16" HorizontalAlignment="Left" Margin="870,160,0,0" VerticalAlignment="Top" Width="430" SelectedIndex="0" SelectionChanged="cmbDetail_SelectionChanged">
+            <ComboBoxItem Content="Seleccione Detalle"/>
+        </ComboBox>
+
+        <Button x:Name="btnDetail" Content="Ver detalle" HorizontalAlignment="Left" Margin="600,645,0,0" VerticalAlignment="Top" Height="36" FontSize="16" Width="88" Click="btnDetail_Click"/>
+
+    </Grid>
+</Window>

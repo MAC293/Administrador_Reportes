@@ -1,0 +1,30 @@
+﻿<Window xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero"  x:Class="UI.SecondWindow" WindowState="Maximized"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="Administrador de Reportes" Height="768px" Width="1366px">
+    <Grid RenderTransformOrigin="0.504,0.494" Margin="0,0,0,5">
+        <Label x:Name="lblDetailName" Content="" HorizontalAlignment="Left" Margin="375,10,0,0" VerticalAlignment="Top" Width="890" Height="63" FontSize="36"/>
+        <Label x:Name="lblDateGenerated" Content="" HorizontalAlignment="Left" Margin="375,105,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="lblTimeGenerated" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" Margin="515,105,0,0"/>
+
+        <Button x:Name="btnBackToMain" Content="Volver" HorizontalAlignment="Left" Margin="30,650,0,0" VerticalAlignment="Top" Width="80" Height="34" FontSize="18" Click="btnBackToMain_Click"/>
+        <TextBox x:Name="txtSearchDetail" MaxLength="10" MinLines="1" FontSize="18" HorizontalAlignment="Left" Height="34" Margin="379,650,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"/>
+        <Button x:Name="btnUpload" Content="Subir" HorizontalAlignment="Left" Margin="605,650,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="btnUpload_Click" FontSize="16"/>
+
+
+        <DataGrid x:Name="dgSpreadsheets" IsReadOnly="True" AlternatingRowBackground="#78bd23" CanUserResizeColumns="False" Width="Auto" ItemsSource="{Binding}" HorizontalAlignment="Left" Margin="379,158,0,0" VerticalAlignment="Top" Height="430" >
+        </DataGrid>
+
+        <Button x:Name="btnSearchDetail" Content="Buscar" HorizontalAlignment="Left" Margin="500,650,0,0" VerticalAlignment="Top" Width="80" Height="34" FontSize="16" Click="btnSearchDetail_Click"/>
+        <Button x:Name="btnShowAll" Content="Mostrar todos" HorizontalAlignment="Left" Margin="707,649,0,0" VerticalAlignment="Top" Width="128" Height="34" FontSize="16" Click="btnShowAll_Click"/>
+  
+        <Label x:Name="lblMessage" Content="" Foreground="Red" HorizontalAlignment="Left" Margin="375,593,0,0" VerticalAlignment="Top" FontSize="25" Height="46"/>
+        <Button x:Name="btnDownload" Content="Descargar" HorizontalAlignment="Left" Margin="860,650,0,0" VerticalAlignment="Top" Width="95" Height="34" FontSize="16" Click="btnDownload_Click"/>
+    </Grid>
+
+</Window>
+

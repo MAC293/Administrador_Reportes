@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdministradorReportesIModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Description">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="nchar" MaxLength="13" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="50" />
+    <Property Name="Report" Type="nchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nchar" MaxLength="4" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Username" Type="nchar" MaxLength="30" />
+    <Property Name="Password" Type="nchar" MaxLength="20" />
+    <Property Name="AccessLevel" Type="nchar" MaxLength="8" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="27" />
+    <Property Name="Location" Type="nchar" MaxLength="4" />
+  </EntityType>
+  <EntityType Name="Spreadsheet">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" Nullable="false" />
+    <Property Name="Archive" Type="varbinary(max)" />
+    <Property Name="Generated" Type="nchar" MaxLength="10" />
+    <Property Name="Hour" Type="time" Precision="7" />
+    <Property Name="Description" Type="nchar" MaxLength="13" />
+  </EntityType>
+  <Association Name="FK_Description_Spreadsheet">
+    <End Role="Description" Type="Self.Description" Multiplicity="0..1" />
+    <End Role="Spreadsheet" Type="Self.Spreadsheet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Description">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Spreadsheet">
+        <PropertyRef Name="Description" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Location_Report">
+    <End Role="Location" Type="Self.Location" Multiplicity="0..1" />
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="Location" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Report_Description">
+    <End Role="Report" Type="Self.Report" Multiplicity="0..1" />
+    <End Role="Description" Type="Self.Description" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Report">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Description">
+        <PropertyRef Name="Report" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AdministradorReportesIModelStoreContainer">
+    <EntitySet Name="Description" EntityType="Self.Description" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Location" EntityType="Self.Location" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Member" EntityType="Self.Member" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Report" EntityType="Self.Report" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Spreadsheet" EntityType="Self.Spreadsheet" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Description_Spreadsheet" Association="Self.FK_Description_Spreadsheet">
+      <End Role="Description" EntitySet="Description" />
+      <End Role="Spreadsheet" EntitySet="Spreadsheet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Location_Report" Association="Self.FK_Location_Report">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="Report" EntitySet="Report" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Report_Description" Association="Self.FK_Report_Description">
+      <End Role="Report" EntitySet="Report" />
+      <End Role="Description" EntitySet="Description" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

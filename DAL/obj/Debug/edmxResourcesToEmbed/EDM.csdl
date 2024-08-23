@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdministradorReportesIModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Description">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="String" MaxLength="13" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Report" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Spreadsheet" Relationship="Self.FK_Description_Spreadsheet" FromRole="Description" ToRole="Spreadsheet" />
+    <NavigationProperty Name="Report1" Relationship="Self.FK_Report_Description" FromRole="Description" ToRole="Report" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="4" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Report" Relationship="Self.FK_Location_Report" FromRole="Location" ToRole="Report" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="AccessLevel" Type="String" MaxLength="8" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="String" MaxLength="3" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="27" FixedLength="true" Unicode="true" />
+    <Property Name="Location" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Description" Relationship="Self.FK_Report_Description" FromRole="Report" ToRole="Description" />
+    <NavigationProperty Name="Location1" Relationship="Self.FK_Location_Report" FromRole="Report" ToRole="Location" />
+  </EntityType>
+  <EntityType Name="Spreadsheet">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="Int32" Nullable="false" />
+    <Property Name="Archive" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Generated" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Hour" Type="Time" Precision="7" />
+    <Property Name="Description" Type="String" MaxLength="13" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Description1" Relationship="Self.FK_Description_Spreadsheet" FromRole="Spreadsheet" ToRole="Description" />
+  </EntityType>
+  <Association Name="FK_Description_Spreadsheet">
+    <End Role="Description" Type="Self.Description" Multiplicity="0..1" />
+    <End Role="Spreadsheet" Type="Self.Spreadsheet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Description">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Spreadsheet">
+        <PropertyRef Name="Description" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Report_Description">
+    <End Role="Report" Type="Self.Report" Multiplicity="0..1" />
+    <End Role="Description" Type="Self.Description" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Report">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Description">
+        <PropertyRef Name="Report" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Location_Report">
+    <End Role="Location" Type="Self.Location" Multiplicity="0..1" />
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="Location" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Description" EntityType="Self.Description" />
+    <EntitySet Name="Location" EntityType="Self.Location" />
+    <EntitySet Name="Member" EntityType="Self.Member" />
+    <EntitySet Name="Report" EntityType="Self.Report" />
+    <EntitySet Name="Spreadsheet" EntityType="Self.Spreadsheet" />
+    <AssociationSet Name="FK_Description_Spreadsheet" Association="Self.FK_Description_Spreadsheet">
+      <End Role="Description" EntitySet="Description" />
+      <End Role="Spreadsheet" EntitySet="Spreadsheet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Report_Description" Association="Self.FK_Report_Description">
+      <End Role="Report" EntitySet="Report" />
+      <End Role="Description" EntitySet="Description" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Location_Report" Association="Self.FK_Location_Report">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="Report" EntitySet="Report" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
